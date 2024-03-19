@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+body {
+    background-color:#86B7BF;
+}
+
+.input {
+    margin: 15px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.input1 {
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    border-color: #dddddd;
+    color: black;
+    padding: 5px;
+}
+
+.input2 {
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    border-color: #dddddd;
+    color: black;
+    padding: 5px;
+}
+
+.input3 {
+    width: 150px;
+    height: 35px;
+    padding: 2px;
+    border-radius: 15px;
+    border-color: #dddddd;
+    color: black;
+}
+
+.button {
+    margin: 5px;
+    padding: 1px;
+    width: 70px;
+    height: 30px;
+    border-radius: 4rem;
+    border-color: #dddddd;
+    background-color: #4CAF50;
+    color: #dddddd;
+
+}
+
+.Output {
+    padding: 2px;
+    margin-left: 25px ;
+    display: flex;
+    flex-direction: column;
+    white-space:nowrap;
+}
+
+#veriTablosu {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#veriTablosu th {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+#veriTablosu td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#veriTablosu tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#veriTablosu th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.ders {
+    padding-left: 5px;
+    padding-right: 15px;
+}
+.vize {
+    padding-left: 5px;
+    padding-right: 15px;
+}
+.final {
+    padding-left: 5px;
+    padding-right: 15px;
+}
+.ort {
+    padding-left: 5px;
+    padding-right: 15px;
+}
+.gecme {
+    padding-left: 5px;
+    padding-right: 15px;
+}
+.harf {
+    padding-left: 5px;
+    padding-right: 15px;
+}

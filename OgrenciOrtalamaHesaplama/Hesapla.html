@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Hesaplama</title>
+        <link
+        rel="stylesheet"
+        href="./style.css"
+        type="text/css"
+        />
+    </head>
+    <body>
+        <div class="header">
+            <div class="input" id="İnput">
+                <input class="input1"
+                    id="Ders_Adi"
+                    type="text"
+                    placeholder="Ders Adi"
+                />
+                <input class="input2"
+                    id="Vize"
+                    type="number"
+                    placeholder="Vize"
+                />
+                <input class="input3"
+                    id="Final"
+                    type="number"
+                    placeholder="Final"
+                />
+                <button class="button" onclick="hesapla()">Ekle</button>
+            </div>
+            <div id = "Ortalama"></div>
+            <div id = "Gecme"></div>
+            <div id = "Harf"></div>
+            <div class="Output">
+                <table class="output" id="veriTablosu">
+                    <tr class="table">
+                        <th class="ders">Ders Adi</th>
+                        <th class="vize">Vize</th>
+                        <th class="final">Final</th>
+                        <th class="ort">Ortalama</th>
+                        <th class="gecme">Geçme</th>
+                        <th class="harf">Harf</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
