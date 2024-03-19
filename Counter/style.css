@@ -1,0 +1,29 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap'); */
+
+@font-face {
+    font-family: "Rubik Burned" ;
+    src: url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+}
+
+body {
+    margin: 15px;
+    padding: 15px;
+    font-family: "Rubik Burned", system-ui;
+    font-size: 100px;
+}
+
+.counter {
+    margin-bottom: 5px;
+    font-size: 100px;
+}
+
+#incrementbutton {
+    font-family: "Rubik Burned", system-ui;
+    font-size: 100px;
+}
+
+#decrementbutton {
+    font-family: "Rubik Burned", system-ui;
+    font-size: 100px;
+}

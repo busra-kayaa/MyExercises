@@ -1,0 +1,54 @@
+<!-- Simple counter code with javascript -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Counter</title>
+        <link
+            rel="stylesheet"
+            href="./style.css"
+            type="text/css"
+        />
+        <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com"
+        />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin=""
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="head">
+            <h2>Counter</h2>
+            <div class="counter" id="counter">0</div>
+            <button id="incrementbutton" onclick="increment()">Arttır</button>
+            <button id="decrementbutton" onclick="decrement()">Azalt</button>
+        </div>
+            
+        <script>
+            //baslangıc degeri
+            var counterValue = 0;
+
+            function increment() {
+                counterValue++;
+                guncel();
+            }
+
+            function decrement() {
+                counterValue--;
+                guncel();
+            }
+
+            function guncel() {
+                document.getElementById('counter').innerText = counterValue;
+            }
+        </script>
+    </body>
+</html>
