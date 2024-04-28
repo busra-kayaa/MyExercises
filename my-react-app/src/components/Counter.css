@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jacquard+24&family=Jersey+20&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Rubik+Burned&display=swap');
+.counter-container {
+    font-family: "Caveat", cursive;
+    background-color: #3e5883;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    color: white;
+    padding: 40px;
+}
+
+.counter1, .counter {
+    font-weight: bold;
+}
+
+.counter1 {
+    margin-bottom: 10px;
+    font-size: 95px;
+    margin-top: 5px;
+}
+
+.counter {
+    font-size: 50px;
+    margin-top: 5%;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    font-family: "Caveat", cursive;
+    border-radius: 3px;
+    padding: 2px 17px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    margin: 0 10px;
+    border: none;
+}
+
+.button.increment {
+    background-color: #4caf50;
+}
+
+.button.increment:hover {
+    background-color: #388e3c;
+    transform: translateY(-2px);
+}
+
+.button.decrement {
+    background-color: #f44336;
+}
+
+.button.decrement:hover {
+    background-color: #d32f2f;
+    transform: translateY(-2px);
+}
